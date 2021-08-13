@@ -1,0 +1,4 @@
+﻿SELECT Employees.EmployeeID FROM Employees
+ORDER BY EmployeeID DESC 
+OFFSET 1 ROW
+FETCH FIRST 1 ROW ONLY
